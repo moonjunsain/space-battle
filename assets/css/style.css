@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/space-background.jpg);
+    background-size: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+}
+
+#laserSec img {
+    display: none;
+    position: absolute;
+    height: 60px;
+    width: 29px;
+    transition: all 90ms;
+}
+
+#enemyLaserSec img {
+    display: none;
+    position: absolute;
+    height: 60px;
+    width: 29px;
+    transition: all 90ms;
+    filter: invert(1);
+}
+
+#ship {
+    position: absolute;
+    left: 814px;
+    top: 600px;
+    width: 8%;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+#enemy {
+    width: 5%;
+    position: absolute;
+    left: 831px;
+    top: 95px;
+}
+
+#explosion {
+    position: absolute;
+    width: 6%;
+    display: none;
+}
+
+#playBtn {
+    margin: 1%;
+    padding: 5px;
+    width: 10%;
+    font-size: 150%;
+    background-color: rgb(225, 239, 245);
+    border: 2px purple solid;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    letter-spacing: 10px;
+}
+
+#instructions {
+    color: white;
+    margin-top: 0.5%;
+    font-size: large;
+}
+
+#level {
+    color: white;
+    margin-top: 0.5%;
+    font-size: large;
+}

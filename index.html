@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Space Battle</title>
+</head>
+<body>
+    <audio id="serious" loop>
+        <source src="./assets/audio/dont-be-so-serious.mp3" type="audio/mpeg">
+        Your browser does not support audio
+    </audio>
+    <header>
+        <h1>Space Battle!</h1>
+    </header>
+
+    <main>
+        <p id="instructions">
+            Instructions: Move with arrow key, shoot with space bar <br>
+            Music: Don't Be So Serious by Low Roar
+        </p>
+        <h3 id="level">Level: 1</h3>
+        <button id="playBtn">Play</button>
+        <section id="enemyLaserSec"></section>
+        <section id="laserSec"></section>
+        <img id="ship" src="./assets/image/space-ship.gif" alt="space-ship">
+        <img id="enemy" src="./assets/image/enemy-ship.png" alt="enemy-ship">
+        <img id="explosion" src="./assets/image/explosion.gif" alt="explosion">
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
